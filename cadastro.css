@@ -1,0 +1,99 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: dotted 10px bisque;  
+  }
+  
+  
+  h2{
+   font-size: 20px;
+  
+    
+  }
+  .forms {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background:#ffffff; 
+    box-shadow: 1px 0px 1.2px 0px #e3e3e3; 
+    border-radius:3px; 
+    padding:1em;
+  }
+  .submit {
+    float: left;
+    display: block;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: rosybrown;
+    color: #fff;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    font-family: inherit;
+    font-size: 15px;
+    font-family:'open_sansregular';
+    border-radius: 6px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .submit:hover {
+      background-color: #444444;
+      margin-top: 20px;
+      transform: scale(1.03);
+  }
+  button {
+    width: 420px;
+    height: 55px;
+    border: none;
+    border-radius: 0;
+    background-color: burlywood;
+    font-family: inherit;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px #000000;
+    transition: transform 200ms ease-in-out;
+  }
+
+  button:hover{
+    transform: scale(1.05);
+  }
+
+  .enviar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 0;
+    background-color:lightsalmon;
+    font-family: inherit;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px #000000;
+  }
+
+  .magica {
+    width: 150px;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: orangered;
+
+  }

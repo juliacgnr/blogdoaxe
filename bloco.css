@@ -1,0 +1,10 @@
+.blocos02 {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: dotted 10px bisque;  
+  }
+  
+  .logo {
+   height: 200px;
+    width: 200px;
+  }
